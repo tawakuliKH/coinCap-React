@@ -19,18 +19,18 @@ table {
 
 td,
 th {
-  border: 1px solid #dddddd;
+  border: 1px solid #ddd;
   text-align: left;
   padding: 8px;
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: #ddd;
 }
 
 .header {
   background-color: darkslateblue;
-  color: #dddddd;
+  color: #ddd;
   padding: 1rem;
   display: flex;
   justify-content: space-between;
@@ -44,7 +44,7 @@ tr:nth-child(even) {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #AED6F1;
+  background-color: #aed6f1;
   gap: 20px;
 }
 
@@ -86,7 +86,7 @@ tr:nth-child(even) {
   width: 50%;
   display: flex;
   align-items: center;
-  background-color: #EB984E;
+  background-color: #eb984e;
   border: 1px solid aquamarine;
 }
 
