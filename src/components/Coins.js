@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { getCoins } from '../redux/coins/CoinsSlice';
@@ -47,6 +49,9 @@ const Coins = () => {
                 {' '}
                 USD
               </p>
+            </div>
+            <div className="arrow-details">
+              <FontAwesomeIcon className="arrow" icon={faArrowRight} />
             </div>
           </Link>
         ))}
