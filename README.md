@@ -189,7 +189,7 @@ I would like to thank from Microverse and all of my teammates.
 
 - [Microverse Videos](https://www.youtube.com/watch?v=PrIY8sYwe90&ab_channel=Microversevideos)
 
-I would like to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) because this project is based on his original design idea.
+I would like to thank [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) because this project is based on his original design idea.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LICENSE -->

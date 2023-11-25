@@ -13,49 +13,52 @@ const CoinsDetails = () => {
   }, [dispatch, id]);
 
   return (
-    <section className="details-section">
+    <section className="details-section" data-testid="details-component">
       {isLoading && <h2 style={{ color: '#fff', margin: 'auto' }}>Loading...</h2>}
       {errorMessage && <h2 style={{ color: '#fff', margin: 'auto' }}>{errorMessage}</h2>}
       <h3 className="coin-name">{`${details.name} - ${details.symbol}`}</h3>
       <div className="coin-details">
         <div className="coin">
           <table>
-            <tr>
-              <td>Price</td>
-              <td>{parseFloat(details.priceUsd).toFixed(2)}</td>
-            </tr>
-            <tr>
-              <td>Market Cap</td>
-              <td>
-                {parseFloat(details.marketCapUsd).toFixed(2)}
-                {' '}
-                USD
-              </td>
-            </tr>
-            <tr>
-              <td>Volume 24Hr</td>
-              <td>
-                {parseFloat(details.volumeUsd24Hr).toFixed(2)}
-                {' '}
-                USD
-              </td>
-            </tr>
-            <tr>
-              <td>Percent Rate 24Hr</td>
-              <td>
-                {parseFloat(details.changePercent24Hr).toFixed(2)}
-                {' '}
-                USD
-              </td>
-            </tr>
-            <tr>
-              <td>Price</td>
-              <td>
-                {parseFloat(details.priceUsd).toFixed(2)}
-                {' '}
-                USD
-              </td>
-            </tr>
+            <tbody>
+              <tr>
+                <td>Price</td>
+                <td>{parseFloat(details.priceUsd).toFixed(2)}</td>
+              </tr>
+              <tr>
+                <td>Market Cap</td>
+                <td>
+                  {parseFloat(details.marketCapUsd).toFixed(2)}
+                  {' '}
+                  USD
+                </td>
+              </tr>
+              <tr>
+                <td>Volume 24Hr</td>
+                <td>
+                  {parseFloat(details.volumeUsd24Hr).toFixed(2)}
+                  {' '}
+                  USD
+                </td>
+              </tr>
+              <tr>
+                <td>Percent Rate 24Hr</td>
+                <td>
+                  {parseFloat(details.changePercent24Hr).toFixed(2)}
+                  {' '}
+                  USD
+                </td>
+              </tr>
+              <tr>
+                <td>Price</td>
+                <td>
+                  {parseFloat(details.priceUsd).toFixed(2)}
+                  {' '}
+                  USD
+                </td>
+              </tr>
+            </tbody>
+
           </table>
         </div>
       </div>

@@ -6,7 +6,7 @@ const Navbar = () => {
   const location = useLocation();
 
   return (
-    <header className="header">
+    <header className="header" data-testid="navbar-component">
       {location.pathname !== '/' && (
       <NavLink to="/">
         <FontAwesomeIcon className="arrow" icon={faAngleLeft} />

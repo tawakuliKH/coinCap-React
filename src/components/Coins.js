@@ -23,7 +23,7 @@ const Coins = () => {
   );
 
   return (
-    <section className="coin-section">
+    <section className="coin-section" data-testid="coins-component">
       <div className="coin-topic">
         <h2>Cryptocurrency Market</h2>
         <p>
