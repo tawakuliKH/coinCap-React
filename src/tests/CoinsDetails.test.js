@@ -5,7 +5,6 @@ import CoinsDetails from '../components/CoinsDetails';
 import store from '../redux/store';
 import '@testing-library/jest-dom';
 
-
 test('renders Coins component with Redux Provider', () => {
   const { getByTestId } = render(
     <Provider store={store}>
