@@ -61,7 +61,10 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- under work
+<a href="https://coincap-k6ki.onrender.com">Live Demo</a>
+
+<a href="https://www.loom.com/share/909b87f31dc04e309c29c00b82bbf116">Video Presentation</a>
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -185,8 +188,8 @@ If you like this project give it a star
 I would like to thank from Microverse and all of my teammates.
 
 - [Microverse Videos](https://www.youtube.com/watch?v=PrIY8sYwe90&ab_channel=Microversevideos)
-- [Setup Linters](https://questions.microverse.org/t/configure-linters-for-html-and-css/2009)
-- [Mobile First](https://www.mightyminnow.com/2013/11/what-is-mobile-first-css-and-why-does-it-rock/)
+
+I would like to thank [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) because this project is based on his original design idea.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LICENSE -->
