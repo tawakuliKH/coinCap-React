@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Coins component with Redux Provider 1`] = `
+<div
+  className="App"
+  data-testid="app-component"
+>
+  <header
+    className="header"
+    data-testid="navbar-component"
+  >
+    <h3>
+      Crypto Coins
+    </h3>
+  </header>
+  <section
+    className="coin-section"
+    data-testid="coins-component"
+  >
+    <div
+      className="coin-topic"
+    >
+      <h2>
+        Cryptocurrency Market
+      </h2>
+      <p>
+        (
+        0
+         
+        Famouse Crypto Coins)
+      </p>
+      <div
+        className="search-bar-container"
+      >
+        <input
+          className="search-bar"
+          onChange={[Function]}
+          placeholder="Search"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="card-container"
+    />
+  </section>
+</div>
+`;
